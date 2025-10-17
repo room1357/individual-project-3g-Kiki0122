@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pemrograman_mobile/screens/login_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              // Handle logout
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginScreen()));
             },
             icon: Icon(Icons.logout),
           ),
