@@ -3,7 +3,6 @@ import 'package:pemrograman_mobile/screens/home_screen.dart';
 import 'package:pemrograman_mobile/screens/history_screen.dart';
 import 'package:pemrograman_mobile/screens/stats_screen.dart';
 import 'package:pemrograman_mobile/screens/profile_screen.dart';
-import 'package:pemrograman_mobile/screens/add_expense_screen.dart';
 
 class CustomNavBar extends StatelessWidget {
   final int currentIndex;
